@@ -13,7 +13,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             Lab13_animacionesTheme {
                 //AnimatedVisibilitySample()
-                ColorChangeSample()
+                //ColorChangeSample()
+                SizeAndPositionAnimationSample()
             }
         }
     }
