@@ -12,7 +12,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             Lab13_animacionesTheme {
-                AnimatedVisibilitySample() // Llama al composable
+                //AnimatedVisibilitySample()
+                ColorChangeSample()
             }
         }
     }
