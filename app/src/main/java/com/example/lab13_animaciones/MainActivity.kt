@@ -15,7 +15,8 @@ class MainActivity : ComponentActivity() {
                 //AnimatedVisibilitySample()
                 //ColorChangeSample()
                 //SizeAndPositionAnimationSample()
-                AnimatedContentExample()
+                //AnimatedContentExample()
+                PantallaAnimacionesFinal()
             }
         }
     }
