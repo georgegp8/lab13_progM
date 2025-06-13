@@ -14,7 +14,8 @@ class MainActivity : ComponentActivity() {
             Lab13_animacionesTheme {
                 //AnimatedVisibilitySample()
                 //ColorChangeSample()
-                SizeAndPositionAnimationSample()
+                //SizeAndPositionAnimationSample()
+                AnimatedContentExample()
             }
         }
     }

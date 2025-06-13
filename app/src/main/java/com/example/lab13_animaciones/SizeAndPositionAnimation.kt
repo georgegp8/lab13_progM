@@ -23,7 +23,7 @@ fun SizeAndPositionAnimationSample() {
     // Animación del tamaño
     val size by animateDpAsState(
         targetValue = if (isExpanded) 200.dp else 100.dp,
-        animationSpec = tween(durationMillis = 500) // Especificación de animación
+        animationSpec = tween(durationMillis = 500)
     )
 
     // Animación de la posición
@@ -31,7 +31,6 @@ fun SizeAndPositionAnimationSample() {
         targetValue = if (isExpanded) 100.dp else 0.dp,
         animationSpec = tween(durationMillis = 500)
     )
-
     // Contenedor principal
     Box(
         modifier = Modifier.fillMaxSize(),
